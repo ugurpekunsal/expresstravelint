@@ -9,7 +9,7 @@ function Footer() {
 		<div className="footer-container">
 			<section className="footer-subscription">
 				<p className="footer-subscription-heading">
-					Join the Adventure newsletter to receive our best vacation deals
+					Join the Express Travel newsletter to receive our best vacation deals
 				</p>
 				<p className="footer-subscription-text">
 					You can unsubscribe at any time.
@@ -68,7 +68,10 @@ function Footer() {
 							<img src={imgLogo} alt="company logo" height="75vh"></img>
 						</Link>
 					</div>
-					<small class="website-rights">TRVL © 2020</small>
+					<small class="website-rights">
+						Express Travel Int. © 2022<br></br>
+						<br></br>TICO Registration #50025642
+					</small>
 					<div class="social-icons">
 						<Link
 							class="social-icon-link facebook"

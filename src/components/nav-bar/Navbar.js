@@ -33,6 +33,7 @@ function Navbar() {
 					<Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
 						<img src={imgLogo} alt="company logo" height="75vh"></img>
 					</Link>
+					<h5 className="nav-links">TICO Registration # 50025642</h5>
 					<div className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
 					</div>
