@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../button/Button";
 import imgLogo from "../../assets/images/img-logo.png";
+import imgTico from "../../assets/images/tico-header.png";
 
 import "./Navbar.styles.css";
 
@@ -34,6 +35,7 @@ function Navbar() {
 						<img src={imgLogo} alt="company logo" height="75vh"></img>
 					</Link>
 					<h5 className="nav-links">TICO Registration # 50025642</h5>
+					<img src={imgTico} alt="tico logo" height="25vh"></img>
 					<div className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fas fa-times" : "fas fa-bars"} />
 					</div>

@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "../button/Button";
 import "./Footer.styles.css";
-import imgLogo from "../../assets/images/img-logo.png";
+import imgTico from "../../assets/images/tico-footer.jpg";
+import imgPknsl from "../../assets/images/thumbnail-pknsl.png";
 
 function Footer() {
 	return (
@@ -65,13 +66,27 @@ function Footer() {
 				<div class="social-media-wrap">
 					<div class="footer-logo">
 						<Link to="/" className="social-logo">
-							<img src={imgLogo} alt="company logo" height="75vh"></img>
+							<img
+								src={imgTico}
+								class="tico-footer"
+								alt="tico logo"
+								height="75vh"
+							></img>
 						</Link>
 					</div>
-					<small class="website-rights">
-						Express Travel Int. © 2022<br></br>
-						<br></br>TICO Registration #50025642
-					</small>
+					<div class="footer-center">
+						<small class="website-rights">
+							Express Travel Int. © 2022<br></br>Designed by
+							<a href="https://www.pknsl.com/">
+								<img
+									class="footer-pknsl"
+									src={imgPknsl}
+									height="30"
+									alt="pknsl website design and development logo"
+								></img>
+							</a>
+						</small>
+					</div>
 					<div class="social-icons">
 						<Link
 							class="social-icon-link facebook"
@@ -98,20 +113,20 @@ function Footer() {
 							<i class="fab fa-youtube" />
 						</Link>
 						<Link
-							class="social-icon-link twitter"
+							class="social-icon-link youtube"
 							to="/"
 							target="_blank"
-							aria-label="Twitter"
-						>
-							<i class="fab fa-twitter" />
-						</Link>
-						<Link
-							class="social-icon-link twitter"
-							to="/"
-							target="_blank"
-							aria-label="LinkedIn"
+							aria-label="Youtube"
 						>
 							<i class="fab fa-linkedin" />
+						</Link>
+						<Link
+							class="social-icon-link youtube"
+							to="/"
+							target="_blank"
+							aria-label="Youtube"
+						>
+							<i class="fab fa-github" />
 						</Link>
 					</div>
 				</div>
