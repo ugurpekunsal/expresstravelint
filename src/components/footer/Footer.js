@@ -8,7 +8,7 @@ import imgPknsl from "../../assets/images/thumbnail-pknsl.png";
 function Footer() {
 	return (
 		<div className="footer-container">
-			<section className="footer-subscription">
+			{/* <section className="footer-subscription">
 				<p className="footer-subscription-heading">
 					Join the Express Travel newsletter to receive our best vacation deals
 				</p>
@@ -26,10 +26,10 @@ function Footer() {
 						<Button buttonStyle="btn--outline">Subscribe</Button>
 					</form>
 				</div>
-			</section>
+			</section> */}
 			<div class="footer-links">
 				<div className="footer-link-wrapper">
-					<div class="footer-link-items">
+					{/* <div class="footer-link-items">
 						<h2>About Us</h2>
 						<Link to="/sign-up">How it works</Link>
 						<Link to="/">Testimonials</Link>
@@ -52,13 +52,15 @@ function Footer() {
 						<Link to="/">Ambassadors</Link>
 						<Link to="/">Agency</Link>
 						<Link to="/">Influencer</Link>
-					</div>
+					</div> */}
 					<div class="footer-link-items">
 						<h2>Social Media</h2>
-						<Link to="/">Instagram</Link>
-						<Link to="/">Facebook</Link>
-						<Link to="/">Youtube</Link>
-						<Link to="/">Twitter</Link>
+
+						<Link to="https://www.facebook.com/Express.Travel.Int">
+							Facebook
+						</Link>
+						{/* <Link to="/">Youtube</Link>
+						<Link to="/">Twitter</Link> */}
 					</div>
 				</div>
 			</div>
@@ -90,13 +92,13 @@ function Footer() {
 					<div class="social-icons">
 						<Link
 							class="social-icon-link facebook"
-							to="/"
+							to="https://www.facebook.com/Express.Travel.Int"
 							target="_blank"
 							aria-label="Facebook"
 						>
 							<i class="fab fa-facebook-f" />
 						</Link>
-						<Link
+						{/* <Link
 							class="social-icon-link instagram"
 							to="/"
 							target="_blank"
@@ -127,7 +129,7 @@ function Footer() {
 							aria-label="Youtube"
 						>
 							<i class="fab fa-github" />
-						</Link>
+						</Link> */}
 					</div>
 				</div>
 			</section>

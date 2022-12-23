@@ -14,28 +14,13 @@ function Cards() {
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<CardItem src={img9} text="Leasure" label="" path="/services" />
-						<CardItem
-							src={img2}
-							text="Group Travel"
-							label=""
-							path="/services"
-						/>
+						<CardItem src={img9} text="Leasure" label="" path="" />
+						<CardItem src={img2} text="Group Travel" label="" path="" />
 					</ul>
 					<ul className="cards__items">
-						<CardItem
-							src={img3}
-							text="Business Travel"
-							label=""
-							path="/services"
-						/>
-						<CardItem
-							src={img4}
-							text="Events Management"
-							label=""
-							path="/products"
-						/>
-						<CardItem src={img8} text="Exclusive" label="" path="/sign-up" />
+						<CardItem src={img3} text="Business Travel" label="" path="" />
+						<CardItem src={img4} text="Events Management" label="" path="" />
+						<CardItem src={img8} text="Exclusive" label="" path="/" />
 					</ul>
 				</div>
 			</div>
